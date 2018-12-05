@@ -1,0 +1,3 @@
+[submodule "script_extend"]
+	path = script_extend
+	url = https://github.com/codysk/bgmi-script-extend.git
