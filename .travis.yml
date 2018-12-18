@@ -1,0 +1,31 @@
+language: python
+python:
+  - 3.4
+  - 3.5
+  - 3.6
+
+before_script:
+  - pip install bgmi
+  - pip install codecov
+  - pip install coverage
+  - bgmi install
+  - cd ~/.bgmi;
+    rm -rf scripts;
+    ln -s $TRAVIS_BUILD_DIR scripts;
+    cd $TRAVIS_BUILD_DIR;
+
+script:
+  - coverage run Goblin_Slayer.py
+  - coverage run Imouto_ja_Nai.py
+  - coverage run Kyou_Kara_Ore_Wa.py
+  - coverage run Seishun_Buta_Yarou.py
+  - coverage run SSSS_GRIDMAN.py
+  - coverage run Sword_Art_Online_Alicization.py
+  - coverage run Tensei_Shitara_Slime_Datta_Ken.py
+  - coverage run Toaru_Majutsu_no_Index.py
+  - coverage run Tonari_no_Kyuuketsu_San.py
+  - coverage run Uchi_no_Maid.py
+  - coverage run Zombieland_Saga.py
+
+after_success:
+  - codecov
