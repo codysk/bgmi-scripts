@@ -1,5 +1,7 @@
 # BGmi-Scripts
 
+[![Build Status](https://travis-ci.org/codysk/bgmi-scripts.svg?branch=master)](https://travis-ci.org/codysk/bgmi-scripts) [![codecov](https://codecov.io/gh/codysk/bgmi-scripts/branch/master/graph/badge.svg)](https://codecov.io/gh/codysk/bgmi-scripts)
+
 some bgmi script with script extend
 
 ## Usage
