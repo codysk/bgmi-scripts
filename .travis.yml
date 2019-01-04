@@ -16,16 +16,10 @@ before_script:
 
 script:
   - coverage run -a Goblin_Slayer.py
-  - coverage run -a Imouto_ja_Nai.py
-  - coverage run -a Kyou_Kara_Ore_Wa.py
-  - coverage run -a Seishun_Buta_Yarou.py
-  - coverage run -a SSSS_GRIDMAN.py
   - coverage run -a Sword_Art_Online_Alicization.py
   - coverage run -a Tensei_Shitara_Slime_Datta_Ken.py
   - coverage run -a Toaru_Majutsu_no_Index.py
   - coverage run -a Tonari_no_Kyuuketsu_San.py
-  - coverage run -a Uchi_no_Maid.py
-  - coverage run -a Zombieland_Saga.py
 
 after_success:
   - codecov
