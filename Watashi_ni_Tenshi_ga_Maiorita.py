@@ -13,7 +13,7 @@ from script_extend.script import SearchScriptBase
 class Script(SearchScriptBase):
     class Model(SearchScriptBase.Model):
         bangumi_name = '天使降臨到了我身邊！'
-        cover = 'http://lain.bgm.tv/pic/cover/l/1f/3f/247417_O2YP9.jpg'
+        cover = 'http://lain.bgm.tv/pic/cover/l/f3/2d/249637_2r3gw.jpg'
         update_time = 'Tue'
         due_date = datetime.datetime(2019, 4, 1)
         source = 'dmhy'
