@@ -15,11 +15,7 @@ before_script:
     cd $TRAVIS_BUILD_DIR;
 
 script:
-  - coverage run -a Goblin_Slayer.py
-  - coverage run -a Sword_Art_Online_Alicization.py
-  - coverage run -a Tensei_Shitara_Slime_Datta_Ken.py
-  - coverage run -a Toaru_Majutsu_no_Index.py
-  - coverage run -a Tonari_no_Kyuuketsu_San.py
+  - bash .ci_test.sh
 
 after_success:
   - codecov
