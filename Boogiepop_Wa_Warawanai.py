@@ -15,7 +15,7 @@ class Script(SearchScriptBase):
         bangumi_name = '不吉波普不笑'
         cover = 'http://lain.bgm.tv/pic/cover/l/41/2a/240039_DSzs2.jpg'
         update_time = 'Fri'
-        due_date = datetime.datetime(2019, 5, 1)
+        due_date = datetime.datetime(2019, 4, 1)
         source = 'dmhy'
         keyword = '不吉波普'
 

@@ -15,7 +15,7 @@ class Script(SearchScriptBase):
         bangumi_name = '關於我轉生後成為史萊姆的那件事'
         cover = 'http://lain.bgm.tv/pic/cover/l/7b/d6/239816_BbNdb.jpg'
         update_time = 'Mon'
-        due_date = datetime.datetime(2019, 5, 1)
+        due_date = datetime.datetime(2019, 4, 1)
         source = 'dmhy'
         keyword = '史莱姆'
 
