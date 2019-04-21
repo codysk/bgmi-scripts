@@ -20,7 +20,7 @@ class Script(SearchScriptBase):
         keyword = 'carole & tuesday'
 
         include_regex_filters = [
-            r'(BIG5|繁体|繁體|\[繁\])',
+            r'(BIG5|繁体|繁體|\[繁\]|繁日)',
         ];
 
         exclude_regex_filters = [
