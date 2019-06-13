@@ -21,7 +21,7 @@ class Script(SearchScriptBase):
         keyword = '异世界四重奏'
 
         include_regex_filters = [
-            r'(简体中文字幕)',
+            r'(简体中文字幕|简体|简中|GB)',
         ];
 
         exclude_regex_filters = [
