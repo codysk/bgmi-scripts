@@ -15,7 +15,7 @@ class Script(SearchScriptBase):
         bangumi_name = '鬼滅之刃'
         cover = 'http://lain.bgm.tv/pic/cover/l/9d/d1/245665_5an54.jpg'
         update_time = 'Sat'
-        due_date = datetime.datetime(2019, 7, 1)
+        # due_date = datetime.datetime(2019, 7, 1)
         source = 'dmhy'
         keyword = '鬼滅之刃'
 

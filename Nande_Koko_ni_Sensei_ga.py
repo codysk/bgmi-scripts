@@ -16,7 +16,7 @@ class Script(SearchScriptBase):
         bangumi_name = '為什麽老師會在這裏！？'
         cover = 'http://lain.bgm.tv/pic/cover/l/ef/65/262111_wIH5f.jpg'
         update_time = 'Sun'
-        due_date = datetime.datetime(2019, 7, 1)
+        # due_date = datetime.datetime(2019, 7, 1)
         source = 'dmhy'
         keyword = '老师 这里'
 

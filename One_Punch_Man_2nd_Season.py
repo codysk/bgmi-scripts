@@ -15,7 +15,7 @@ class Script(SearchScriptBase):
         bangumi_name = '一拳超人 第2季'
         cover = 'http://lain.bgm.tv/pic/cover/l/63/0f/193619_MLNLZ.jpg'
         update_time = 'Tue'
-        due_date = datetime.datetime(2019, 7, 1)
+        # due_date = datetime.datetime(2019, 7, 1)
         source = 'dmhy'
         keyword = '一拳超人 (第二季|第2季|s2)|一拳超人2'
 
