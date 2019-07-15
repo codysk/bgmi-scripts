@@ -15,7 +15,7 @@ class Script(SearchScriptBase):
         bangumi_name = 'CAROLE & TUESDAY'
         cover = 'http://lain.bgm.tv/pic/cover/l/50/aa/239912_z34n4.jpg'
         update_time = 'Wed'
-        due_date = datetime.datetime(2019, 10, 1)
+        # due_date = datetime.datetime(2019, 10, 1)
         source = 'dmhy'
         keyword = 'carole & tuesday'
 
