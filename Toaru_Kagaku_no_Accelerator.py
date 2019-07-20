@@ -25,7 +25,7 @@ class Script(SearchScriptBase):
         ];
 
         exclude_regex_filters = [
-            r'(HEVC|MKV|H265)',
+            r'(HEVC|MKV|H265|内封)',
         ];
 
         post_fetch_hooks = [
