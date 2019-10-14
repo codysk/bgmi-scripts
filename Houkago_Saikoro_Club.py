@@ -17,7 +17,7 @@ class Script(SearchScriptBase):
         update_time = 'Wed'
         # due_date = datetime.datetime(2020, 1, 1)
         source = 'dmhy'
-        keyword = '学不来 (S02|二季)'
+        keyword = '放学 俱乐部'
 
         include_regex_filters = [
             r'(BIG5|繁体|繁體|\[繁\]|CHT)',
