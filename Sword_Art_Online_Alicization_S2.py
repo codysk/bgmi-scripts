@@ -13,7 +13,7 @@ from script_extend.script import SearchScriptBase
 class Script(SearchScriptBase):
     class Model(SearchScriptBase.Model):
         bangumi_name = '刀剑神域 Alicization篇 War of Underworld'
-        cover = 'http://bgm.tv/subject/279457'
+        cover = 'http://lain.bgm.tv/pic/cover/l/dd/a6/279457_TkOjj.jpg'
         update_time = 'Sat'
         # due_date = datetime.datetime(2020, 1, 1)
         source = 'dmhy'
