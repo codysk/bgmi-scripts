@@ -17,7 +17,7 @@ class Script(SearchScriptBase):
         update_time = 'Wed'
         # due_date = datetime.datetime(2020, 1, 1)
         source = 'dmhy'
-        keyword = '书 下克上'
+        keyword = 'Honzuki'
 
         include_regex_filters = [
             r'(BIG5|繁体|繁體|\[繁\])',
