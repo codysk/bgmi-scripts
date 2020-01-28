@@ -26,6 +26,7 @@ class Script(SearchScriptBase):
 
         exclude_regex_filters = [
             r'(HEVC|MKV|H265)',
+            r'外挂',
         ];
 
         post_fetch_hooks = [
