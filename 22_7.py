@@ -20,7 +20,7 @@ class Script(SearchScriptBase):
         keyword = '22/7'
 
         include_regex_filters = [
-            r'(BIG5|繁体|繁體|\[繁\])',
+            r'(BIG5|繁体|繁體|\[繁\]|繁日雙語)',
         ];
 
         exclude_regex_filters = [
