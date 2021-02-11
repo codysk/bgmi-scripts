@@ -17,7 +17,7 @@ class Script(SearchScriptBase):
         update_time = 'Fri'
         # due_date = datetime.datetime(2020, 4, 1)
         source = 'dmhy'
-        keyword = '弱势角色'
+        keyword = '弱角友崎'
 
         include_regex_filters = [
             r'(BIG5|繁体|繁體|\[繁\]|繁日雙語|CHT)',
