@@ -13,9 +13,9 @@ from script_extend.script import SearchScriptBase
 class Script(SearchScriptBase):
     class Model(SearchScriptBase.Model):
         bangumi_name = '無職轉生～到了異世界就拿出真本事～'
-        cover = 'http://lain.bgm.tv/pic/cover/l/8b/00/277554_tG28z.jpg'
+        cover = 'https://lain.bgm.tv/pic/cover/l/60/4d/325585_tfU01.jpg'
         update_time = 'Sun'
-        # due_date = datetime.datetime(2021, 4, 1)
+        # due_date = datetime.datetime(2022, 1, 1)
         source = 'dmhy'
         keyword = '無職轉生'
 
