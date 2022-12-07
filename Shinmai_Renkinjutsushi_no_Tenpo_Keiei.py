@@ -17,7 +17,7 @@ class Script(SearchScriptBase):
         update_time = 'Mon'
         # due_date = datetime.datetime(2023, 1, 1)
         source = 'dmhy'
-        keyword = '新人炼金术'
+        keyword = '菜鳥鍊金術師開店'
 
         include_regex_filters = [
             r'(BIG5|繁体|繁體|\[CHT\])',
