@@ -17,7 +17,7 @@ class Script(SearchScriptBase):
         update_time = 'Thu'
         # due_date = datetime.datetime(2024, 4, 1)
         source = 'dmhy'
-        keyword = '憧憬成为魔法少女'
+        keyword = '憧憬成为魔法少女|梦想成为魔法少女'
 
         include_regex_filters = [
             r'(BIG5|繁体|繁體|\[繁\]|繁日雙語|繁日|CHT)',
